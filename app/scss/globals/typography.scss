@@ -1,0 +1,44 @@
+@use '../util' as *;
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	line-height: 1.1;
+}
+
+a,
+a:visited,
+a:active {
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	background-color: seagreen;
+	color: #fff;
+	h1 {
+		font-size: 65px
+	}
+	h2 {
+		font-size: 40px;
+	}
+	.nav-link {
+		color: #fff;
+	}
+	.nav-link:hover {
+		color: orangered;
+	}
+	#active {
+		border-bottom: 3px solid burlywood;
+		padding-bottom: 0.45em;
+	}
+	.navbar-list {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		list-style-type: none;
+		font-size: 25px;
+		padding-bottom: 0.9em;
+	}
+}

@@ -38,3 +38,44 @@
 	bottom: 3em;
 	left: 6.3em;
 }
+
+.card-img {
+	width: 95vw;
+}
+
+.card {
+	position: relative;
+	right: 1em;
+	margin-bottom: 1.5em;
+}
+
+.proj-skills {
+	color: #D9D9D9;
+	font-size: 18px;
+	line-height: 28px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.meet-css,.elearn-css {
+	position: relative;
+	right: 11em;
+}
+
+.contact-form {
+	margin-top: 4em;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 2em;
+}
+
+.footer-links img {
+	margin-right: 1.2em;
+}

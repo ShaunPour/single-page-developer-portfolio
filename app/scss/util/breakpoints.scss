@@ -23,3 +23,77 @@ $breakpoints-down: (
 		@content;
 	}
 }
+
+@media(min-width:768px) {
+	.title {
+		position: absolute;
+		top: 0;
+		left: 20px;
+	}
+
+	.links, .profile-mobile {
+		position: absolute;
+		top: 10px;
+		right: 20px;
+	}
+
+	.intro {
+		position: relative;
+		top: 1em;
+		margin-top: 1em;
+		width: 65%;
+		margin-bottom: 2em;
+	}
+
+	.intro,.bio {
+		text-align: left;
+		position: relative;
+		right: 3em;
+	}
+
+	.bio {
+		position: relative;
+		width: 65%;
+		right: 5em;
+	}
+
+	.contact-upper {
+		position: relative;
+		right: 10em;
+		font-size: 16px;
+		line-height: 26px;
+		letter-spacing: 2.29px;
+	}
+
+	.profile-mobile {
+		height: 55vh;
+	}
+
+	.experience {
+		position: relative;
+		top: 25vh;
+	}
+
+	.html,.javascript,.react {
+		position: relative;
+		right: 15em;
+	}
+
+	.css,.accessibility,.sass {
+		position: relative;
+		left: 10em;
+		bottom: 10em;
+	}
+
+	.react {
+		bottom: 2.5em;
+	}
+
+	.sass {
+		bottom: 24em;
+	}
+
+	.react,.sass {
+		margin-bottom: 12em;
+	}
+}

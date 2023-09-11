@@ -110,17 +110,45 @@ $breakpoints-down: (
 		right: 80vw;
 	}
 
+	.meet {
+		position: relative;
+		left: 5vw;
+	}
+
 	.fcc-markdown {
 		position: relative;
-		left: 50vw;
+		left: 60vw;
 		bottom: 35.3vh;
 	}
 
-	.fcc-markdown .card-title {
+	.elearn {
+		position: relative;
+		left: 5vw;
+		bottom: 30.3vh;
+	}
+
+	.clock {
+		bottom: 65.3vh;
+		left: 60vw;
+	}
+
+	.advice {
+		position: relative;
+		bottom: 60vh;
+		left: 5vw;
+	}
+
+	.preview {
+		position: relative;
+		bottom: 95.5vh;
+		left: 60vw;
+	}
+
+	.fcc-markdown .card-title, .clock .card-title {
 		width: 45%;
 	}
 
-	.projects .fcc-markdown .proj-skills .fcc-css,.projects .fcc-markdown .proj-skills .fcc-javascript,.projects .fcc-markdown .proj-skills .fcc-react {
+	.projects .fcc-markdown .proj-skills .fcc-css,.projects .fcc-markdown .proj-skills .fcc-javascript,.projects .fcc-markdown .proj-skills .fcc-react,.projects .clock .proj-skills .clock-css,.projects .clock .proj-skills .clock-javascript,.projects .advice .proj-skills .advice-css, .projects .advice .proj-skills .advice-javascript,.projects .advice .proj-skills .advice-api,.projects .preview .proj-skills .preview-css,.projects .preview .proj-skills .preview-javascript {
 		position: relative;
 	}
 
@@ -135,5 +163,67 @@ $breakpoints-down: (
 	.projects .fcc-markdown .proj-skills .fcc-react {
 		right: 60vw;
 	}
-	
+
+	.projects .elearn .proj-skills .elearn-css {
+		right: 80vw;
+	}
+
+	.projects .clock .proj-skills .clock-css {
+		right: 35vw;
+	}
+
+	.projects .clock .proj-skills .clock-javascript {
+		right: 69vw;
+	}
+
+	.projects .advice .proj-skills .advice-css {
+		right: 20vw;
+	}
+
+	.projects .advice .proj-skills .advice-javascript {
+		right: 40vw;
+	}
+
+	.projects .advice .proj-skills .advice-api {
+		right: 60vw;
+	}
+
+	.projects .preview .proj-skills .preview-css {
+		right: 33vw;
+	}
+
+	.projects .preview .proj-skills .preview-javascript {
+		right: 65.6vw;
+	}
+
+	.contact-form {
+		position: relative;
+		bottom: 78vh;
+	}
+
+	.contact-title, .contact-txt {
+		text-align: center;
+	}
+
+	.contact-txt {
+		position: relative;
+		left: 25vw;
+		width: 45%;
+	}
+
+	form {
+		position: relative;
+		top: 22vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		input {
+			margin-bottom: 1.1em;
+		}
+	}
+
+	form .send-msg {
+		width: 22%;
+	}
 }

@@ -96,4 +96,44 @@ $breakpoints-down: (
 	.react,.sass {
 		margin-bottom: 12em;
 	}
+
+	.projects .project-header .contact-middle {
+		position: relative;
+		left: 20em;
+	}
+
+	.card .card-img {
+		width: 45vw;
+	}
+	.projects .card .proj-skills .meet-css {
+		position: relative;
+		right: 80vw;
+	}
+
+	.fcc-markdown {
+		position: relative;
+		left: 50vw;
+		bottom: 35.3vh;
+	}
+
+	.fcc-markdown .card-title {
+		width: 45%;
+	}
+
+	.projects .fcc-markdown .proj-skills .fcc-css,.projects .fcc-markdown .proj-skills .fcc-javascript,.projects .fcc-markdown .proj-skills .fcc-react {
+		position: relative;
+	}
+
+	.projects .fcc-markdown .proj-skills .fcc-css {
+		right: 20vw;
+	}
+
+	.projects .fcc-markdown .proj-skills .fcc-javascript {
+		right: 40vw;
+	}
+
+	.projects .fcc-markdown .proj-skills .fcc-react {
+		right: 60vw;
+	}
+	
 }

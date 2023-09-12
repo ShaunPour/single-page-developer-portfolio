@@ -227,3 +227,35 @@ $breakpoints-down: (
 		width: 22%;
 	}
 }
+
+@media (min-width: 1024px) {
+
+	.meet {
+		left: -1vw;
+	}
+
+	.fcc-markdown {
+		position: relative;
+		left: 51vw;
+		bottom: 42vh;
+	}
+
+	.elearn {
+		left: -0.6vw;
+	}
+
+	.clock {
+		left: 51vw;
+		top: -72.6vh;
+	}
+
+	.advice {
+		top: -65vh;
+		left: 0.65vw;
+	}
+
+	.preview {
+		left: 51vw;
+		top: -107vh;
+	}
+}

@@ -31,10 +31,19 @@ $breakpoints-down: (
 		left: 20px;
 	}
 
-	.links, .profile-mobile {
+	.links, .container .header .profile-mobile {
 		position: absolute;
 		top: 10px;
-		right: 20px;
+		right: -178.4px;
+	}
+
+	.header .links {
+		right: -225px;
+	}
+
+	.header .links img {
+		width: 4vw;
+		margin-right: 5vw;
 	}
 
 	.intro {
@@ -45,13 +54,13 @@ $breakpoints-down: (
 		margin-bottom: 2em;
 	}
 
-	.intro,.bio {
+	.intro,#about {
 		text-align: left;
 		position: relative;
 		right: 3em;
 	}
 
-	.bio {
+	#about {
 		position: relative;
 		width: 65%;
 		right: 5em;
@@ -72,6 +81,7 @@ $breakpoints-down: (
 	.experience {
 		position: relative;
 		top: 25vh;
+		left: 6.6vw;
 	}
 
 	.html,.javascript,.react {
@@ -99,12 +109,18 @@ $breakpoints-down: (
 
 	.projects .project-header .contact-middle {
 		position: relative;
-		left: 20em;
+		left: 31.5em;
 	}
 
 	.card .card-img {
 		width: 45vw;
 	}
+
+	.projects {
+		position: relative;
+		left: 5em;
+	}
+
 	.projects .card .proj-skills .meet-css {
 		position: relative;
 		right: 80vw;
@@ -205,10 +221,18 @@ $breakpoints-down: (
 		text-align: center;
 	}
 
-	.contact-txt {
+	.contact-form .contact-title {
+		font-size: 72px;
+		line-height: 72px;
+		letter-spacing: -2.05px;
+	}
+
+	.contact-form .contact-txt {
 		position: relative;
-		left: 25vw;
-		width: 45%;
+		font-size: 25px;
+		line-height: 28px;
+		left: 21vw;
+		width: 65%;
 	}
 
 	form {
@@ -225,6 +249,34 @@ $breakpoints-down: (
 
 	form .send-msg {
 		width: 22%;
+	}
+
+	.container .footer {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.container .footer .footer-links {
+		position: relative;
+		top: 1em;
+		left: 9em;
+	}
+
+	.container .footer .footer-links {
+		left: 15em;
+	}
+
+	.container .footer .footer-links img {
+		width: 4vw;
+		margin-right: 5vw;
+	}
+
+	.container .footer .footer-title {
+		font-size: 32px;
+		line-height: 32px;
+		letter-spacing: -0.44px;
 	}
 }
 
@@ -257,5 +309,39 @@ $breakpoints-down: (
 	.preview {
 		left: 51vw;
 		top: -107vh;
+	}
+}
+
+@media (min-width: 1440px) {
+	.html {
+		right: 30vw;
+	}
+
+	.css {
+		left: -5vw;
+	}
+
+	.javascript {
+		bottom: 27vh;
+		right: -20vw;
+	}
+
+	.accessibility {
+		bottom: 22vh;
+		left: -30vw;
+	}
+
+	.react {
+		bottom: 35vh;
+		left: -5vw;
+	}
+
+	.sass {
+		bottom: 64.5vh;
+		left: 20vw;
+	}
+
+	.experience {
+		top: 25em;
 	}
 }

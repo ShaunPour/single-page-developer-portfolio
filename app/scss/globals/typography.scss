@@ -106,11 +106,36 @@ h2 {
 
 .send-msg {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 26px;
 	letter-spacing: 2.29px;
+	background-color: transparent;
 	color: #fff;
+	border: none;
 	border-bottom: 3px solid #4EE1A0;
 	border-spacing: 30px;
 	width: 50%;
+	position: relative;
+	left: 12em;
+}
+
+form input, form textarea {
+	padding-block: 1rem;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+form input::placeholder,form textarea::placeholder {
+	font-family: sans-serif;
+	color: #D9D9D9;
+	text-transform: uppercase;
+	font-size: 1rem;
+	line-height: 1.625rem;	
+}
+
+form textarea {
+	padding-bottom: 3.4rem;
 }

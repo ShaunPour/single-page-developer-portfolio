@@ -18,8 +18,18 @@
 	justify-content: center;
 }
 
+#profile-mobile {
+	margin: 2.5em;
+	width: 115%;
+}
+
 .links img {
 	margin-right: 1.2em;
+}
+
+.links{
+	position: relative;
+	z-index: 50;
 }
 
 .html,.css,.javascript,.accessibility,.react,.sass {
@@ -62,6 +72,24 @@
 .meet-css,.elearn-css {
 	position: relative;
 	right: 11em;
+}
+
+.elearn-css {
+	right: 2em;
+}
+
+.elearn-javascript  {
+	position: relative;
+	right: 3.5em;
+}
+
+#proj-first-css {
+	right: 3em;
+}
+
+.meet-javascript {
+	position: relative;
+	right: 6em;
 }
 
 .contact-form {

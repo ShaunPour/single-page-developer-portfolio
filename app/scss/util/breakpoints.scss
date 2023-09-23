@@ -25,351 +25,206 @@ $breakpoints-down: (
 }
 
 @media(min-width:768px) {
+	#top #profile-mobile {
+		width: 40vw;
+		position: absolute;
+		top: -3.2vh;
+		right: -5.25vw;
+	}
+
+	#navbar {
+		position: absolute;
+		right: 0;
+		top: 20px;
+	}
+
 	.title {
 		position: absolute;
-		font-size: 45px;
+		left: 1.25vw;
 		top: 0;
-		left: 20px;
-	}
-
-	.links, .container .header #profile-mobile {
-		position: absolute;
-		top: -3vh;
-		right: -71.7vw;
-		width: 75%;
-	}
-
-	.header .links {
-		top: 1em;
-		right: -225px;
-	}
-
-	.header .links img {
-		width: 7vw;
-		margin-right: 5vw;
-	}
-
-	.header .intro {
-		position: relative;
-		top: 1em;
-		margin-top: 1em;
-		right: 4.4em;
-		font-size: 50px;
-		width: 38%;
-		margin-bottom: 2em;
-	}
-
-	.container .header .bio {
-		position: relative;
-		font-size: 30px;
-		margin-left: 45px;
 	}
 
 	.intro,#about {
+		width: 60%;
+		z-index: 400;
 		text-align: left;
-		position: relative;
-		right: 3em;
+		position: absolute;
+		left: 3vw;
+		top: 10vh;
 	}
-
 	#about {
-		position: relative;
-		width: 65%;
-		right: 5em;
+		top: 19vh;
 	}
 
-	.header .contact-upper {
-		position: relative;
-		right: 8.5em;
-		font-size: 30px;
-		line-height: 26px;
-		letter-spacing: 2.29px;
+	.contact-upper {
+		position: absolute;
+		left: 2vw;
+		top: 31vh;
 	}
 
-	.container .experience .html {
-		top: 3em;
+	.experience {
+		margin-top: 39vh;
+		padding-bottom: 45vh;
 	}
 
-	.container .experience 	.accessibility {
-		position: relative;
-		bottom: 13em;
+	.html,.css,.javascript,.react,.sass,.accessibility {
+		position: absolute;
 	}
 
-	.container .experience .sass  {
-		bottom: 27em;
+	.html,.sass {
+		left: 10vw;
+		top: 37.5vh;
 	}
 
-	.container .experience {
-		position: relative;
-		top: 25vh;
-		left: 30vw;
+	.css {
+		top: 45vh;
 	}
 
-	.container .experience .skill {
-		font-size: 45px;
-	}
-	
-	.container .experience .years {
-		font-size: 38px;
+	.css,.react,.accessibility {
+		left: 50vw;
 	}
 
-	.html,.javascript,.react {
-		position: relative;
-		right: 15em;
+	.javascript,.react {
+		top: 55vh;
 	}
 
-	.css,.accessibility,.sass {
-		position: relative;
-		left: 10em;
-		bottom: 10em;
-	}
-
-	.react {
-		bottom: 2.5em;
+	.javascript {
+		left: 11vw;
 	}
 
 	.sass {
-		bottom: 24em;
+		left: 8vw;
+		top: 68vh;
 	}
 
-	.react,.sass {
-		margin-bottom: 12em;
+	.accessibility {
+		top: 68vh;
 	}
 
-	.projects .project-header .contact-middle {
-		position: relative;
-		left: 31.5em;
+	#contact-middle {
+		left: 66vw;
 	}
 
-	.card .card-img {
-		width: 55vw;
+	.card img {
+		width: 45vw;
 	}
 
-	.projects {
-		position: relative;
-		left: 5em;
+	.card-col {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
 	}
 
-	.projects .card .proj-skills .meet-css {
-		position: relative;
-		right: 80vw;
-	}
+	//The below selector is a placeeholder. Remove it once the number of projects reaches 6 or more. It's only there to make project 5's position more symmetrical with the rest.
 
-	.meet {
-		position: relative;
-		left: 5vw;
-	}
-
-	.fcc-markdown {
-		position: relative;
-		left: 75vw;
-		bottom: 38vh;
-	}
-
-	.elearn {
-		position: relative;
-		left: 5vw;
-		bottom: 30.3vh;
+	.card-col .advice {
+		position: relative	;
+		right: 26vw;
 	}
 
 	.clock {
-		bottom: 65.3vh;
-		left: 60vw;
-	}
-
-	.advice {
 		position: relative;
-		bottom: 60vh;
-		left: 5vw;
+		left: 3vw;
 	}
 
-	.preview {
-		position: relative;
-		bottom: 95.5vh;
-		left: 60vw;
-	}
-
-	.fcc-markdown .card-title, .clock .card-title {
-		width: 45%;
-	}
-
-	.projects .fcc-markdown .proj-skills .fcc-css,.projects .fcc-markdown .proj-skills .fcc-javascript,.projects .fcc-markdown .proj-skills .fcc-react,.projects .clock .proj-skills .clock-css,.projects .clock .proj-skills .clock-javascript,.projects .advice .proj-skills .advice-css, .projects .advice .proj-skills .advice-javascript,.projects .advice .proj-skills .advice-api,.projects .preview .proj-skills .preview-css,.projects .preview .proj-skills .preview-javascript {
-		position: relative;
-	}
-
-	.projects .fcc-markdown .proj-skills .fcc-css {
-		right: 20vw;
-	}
-
-	.projects .fcc-markdown .proj-skills .fcc-javascript {
-		right: 40vw;
-	}
-
-	.projects .fcc-markdown .proj-skills .fcc-react {
-		right: 60vw;
-	}
-
-	.projects .elearn .proj-skills .elearn-css {
-		right: 80vw;
-	}
-
-	.projects .clock .proj-skills .clock-css {
-		right: 35vw;
-	}
-
-	.projects .clock .proj-skills .clock-javascript {
-		right: 69vw;
-	}
-
-	.projects .advice .proj-skills .advice-css {
-		right: 20vw;
-	}
-
-	.projects .advice .proj-skills .advice-javascript {
-		right: 40vw;
-	}
-
-	.projects .advice .proj-skills .advice-api {
-		right: 60vw;
-	}
-
-	.projects .preview .proj-skills .preview-css {
-		right: 33vw;
-	}
-
-	.projects .preview .proj-skills .preview-javascript {
-		right: 65.6vw;
-	}
-
-	.contact-form {
-		position: relative;
-		bottom: 78vh;
-	}
-
-	.contact-title, .contact-txt {
-		text-align: center;
-	}
-
-	.contact-form .contact-title {
-		font-size: 72px;
-		line-height: 72px;
-		letter-spacing: -2.05px;
-	}
-
-	.contact-form .contact-txt {
-		position: relative;
-		font-size: 25px;
-		line-height: 28px;
-		left: 21vw;
-		width: 65%;
-	}
-
-	form {
-		position: relative;
-		top: 22vh;
+	.contact-form,.contact-info {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		input {
-			margin-bottom: 1.1em;
+		text-align: center;
+
+		p {
+			width: 45%;
 		}
 	}
 
-	form .send-msg {
-		width: 22%;
+	form {
+		width: 45%;
+		margin-top: 2em;
 	}
 
-	.container .footer {
-		display: flex;
+	.footer,#bottom {
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-between;
-	}
-
-	.container .footer .footer-links {
 		position: relative;
-		top: 1em;
-		left: 9em;
-	}
-
-	.container .footer .footer-links {
-		left: 15em;
-	}
-
-	.container .footer .footer-links img {
-		width: 4vw;
-		margin-right: 5vw;
-	}
-
-	.container .footer .footer-title {
-		font-size: 32px;
-		line-height: 32px;
-		letter-spacing: -0.44px;
+		top: 2em;
 	}
 }
 
-@media (min-width: 1024px) {
+@media(min-width:1024px) {
+	#top #profile-mobile {
+		width: 33vw;
+	}
+}
 
-	.meet {
-		left: -1vw;
+@media(min-width:1440px) {
+	#top #profile-mobile {
+		width: 24vw;
+	}
+
+	.links {
+		left: 70vw;
+		width: 100%;
 	}
 
 	.fcc-markdown {
+		left: 1vw;
+	}
+
+	.card-links {
 		position: relative;
-		left: 51vw;
-		bottom: 42vh;
+		bottom: 30vh;
+		left: 20vw;
+		display: flex;
+		width: 25%;
+		flex-direction: column;
+		display: none;
 	}
 
-	.elearn {
-		left: -0.6vw;
+	.show {
+		display: flex;
 	}
 
-	.clock {
-		left: 51vw;
-		top: -72.6vh;
+	form .send-msg {
+		width: 31%;
 	}
 
-	.advice {
-		top: -65vh;
-		left: 0.65vw;
-	}
-
-	.preview {
-		left: 51vw;
-		top: -107vh;
-	}
-}
-
-@media (min-width: 1440px) {
 	.html {
-		right: 30vw;
+		left: 5vw;
 	}
 
 	.css {
-		left: -5vw;
+		left: 28vw;
 	}
 
 	.javascript {
-		bottom: 27vh;
-		right: -20vw;
+		left: 50vw;
+		top: 45vh;
 	}
 
-	.accessibility {
-		bottom: 22vh;
-		left: -30vw;
+	.sass  {
+		top: 65vh;
+		left: 5vw;
 	}
 
 	.react {
-		bottom: 35vh;
-		left: -5vw;
+		top: 65vh;
+		left: 29vw;
 	}
 
-	.sass {
-		bottom: 64.5vh;
-		left: 20vw;
+	.accessibility {
+		top: 65vh;
 	}
 
-	.experience {
-		top: 25em;
+	hr:first-of-type {
+		position: relative;
+		top: 2.5em;
+	}
+
+	.header #navbar a img:hover,#bottom .footer-links a:hover {
+		color: #4EE1A0;
 	}
 }

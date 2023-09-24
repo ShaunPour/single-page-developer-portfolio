@@ -117,7 +117,7 @@ h2 {
 	border-spacing: 30px;
 	width: 50%;
 	position: relative;
-	left: 12em;
+	left: 8em;
 }
 
 form input, form textarea {
@@ -125,8 +125,18 @@ form input, form textarea {
 	background: transparent;
 	border: none;
 	border-bottom: 1px solid #fff;
-	width: 100%;
+	width: 80%;
 	margin-bottom: 1em;
+}
+
+.contact-title,.contact-txt {
+	position: relative;
+	left: 1em;
+}
+
+form {
+	position: relative;
+	left: 2.2em;
 }
 
 form input::placeholder,form textarea::placeholder {
@@ -139,4 +149,8 @@ form input::placeholder,form textarea::placeholder {
 
 form textarea {
 	padding-bottom: 3.4rem;
+}
+
+form input::placeholder, form textarea[placeholder="Message"]::placeholder {
+	color: #D9D9D9;
 }

@@ -1,27 +1,26 @@
 {
-  "name": "single-page-developer-portfolio",
-  "version": "1.0.0",
-  "description": "One Page Developer Portfolio based on Frontend Mentor project design",
-  "keywords": [],
-  "author": "Shaun Pour",
-  "license": "ISC",
-  "dependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
-    "autoprefixer": "^10.2.6",
-    "browser-sync": "^2.27.4",
-    "cssnano": "^5.0.6",
-    "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
-    "gulp-postcss": "^9.0.0",
-    "gulp-sass": "^5.0.0",
-    "gulp-terser": "^2.0.1",
-    "postcss": "^8.3.5",
-    "sass": "^1.35.2"
+  "name": "dev-portfolio-single-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
-  "browserslist": [
-    "last 1 version",
-    "IE 11",
-    "> 1%"
-  ]
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
 }

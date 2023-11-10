@@ -8,7 +8,7 @@ const ProjectList = () => {
                     <h3 className="projects-title">Projects</h3>
                     <button className="contact-middle">Contact Me</button>
                 </div>
-                <div className="row">
+                <div className="row" id="project-row">
                 {projects.map((projects) => {
                     return (
                         <div className='col' key={projects.id}>

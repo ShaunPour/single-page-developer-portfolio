@@ -12,7 +12,7 @@ const ProjectCard = (props) => {
             </ul>
             <div className="btn-div">
                 <a href={props.projects.site}><button className="code">View Project</button></a>
-                <a href={props.projects.repository}><button className="site">View Project</button></a>
+                <a href={props.projects.repository}><button className="site">View Code</button></a>
             </div>
         </div>
     )

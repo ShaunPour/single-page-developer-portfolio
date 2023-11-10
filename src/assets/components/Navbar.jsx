@@ -5,7 +5,7 @@ const Navbar = () => {
         <nav>
             {contacts.map((contact) => {
                     return (
-                        <a key={contact.id} href={contact.url} className={contact.name}><img src={contact.image} alt={contact.name} className={`${contact.name}-img`} /></a>
+                        <a key={contact.id} href={contact.url} className={contact.name} target="_blank" rel="noreferrer"><img src={contact.image} alt={contact.name} className={`${contact.name}-img`} /></a>
                     );
                 }
                 )}

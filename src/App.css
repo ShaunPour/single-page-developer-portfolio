@@ -13,6 +13,13 @@ nav,.social {
   justify-content: space-evenly;
 }
 
+hr {
+  width: 343px;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--White, #FFF);
+}
+
 .title,.name-footer {
   text-align: center;
 }
@@ -27,15 +34,20 @@ nav,.social {
 }
 
 .intro-title {
-  width: 90%;
+  width: 343px;
   color: var(--White, #FFF);
   text-align: center;
-  font-family: Space Grotesk;
+  font-family: 'Space Grotesk';
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
   letter-spacing: -1.136px;
+}
+
+.green-span {
+  border-bottom: 5px solid #4EE1A0;
+
 }
 
 .bio {
@@ -48,11 +60,11 @@ nav,.social {
   line-height: 26px;
 }
 
-.contact-upper,.contact-middle,.contact-lower {
+.contact-upper,.contact-middle,.contact-lower,.code,.site {
   background:transparent;
   border: none;
   color: var(--White, #FFF);
-  font-family: Space Grotesk;
+  font-family: 'Space Grotesk';
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -69,4 +81,179 @@ nav,.social {
   width: 346px;
   height: 253px;
   flex-shrink: 0;
+  position: relative;
+  left: 15px;
 }
+
+.card-title {
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+.experience {
+  width: 345px;
+  color: var(--Grey, #D9D9D9);
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.project-header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  left: 15px;
+}
+
+.projects-title {
+  color: var(--White, #FFF);
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -1.136px;
+  }
+
+  .contact-middle {
+    left: 4em;
+    top: 3.5em;
+  }
+
+  .tech-stack {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .tech-stack li {
+    margin-right: 20px;
+  }
+
+  .tech-stack li:last-of-type {
+    margin-right: 0;
+  }
+
+  .stack-itm {
+    color: var(--Grey, #D9D9D9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .code,.site {
+    left: auto;
+  }
+
+  .btn-div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    position: relative;
+    right: 30px;
+  }
+
+  footer {
+    width: 375px;
+    height: 834px;
+    flex-shrink: 0;
+    background: var(--Dark-Grey, #242424);
+  }
+
+  .footer-title {
+    width: 343px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.136px;
+    padding-top: 50px;
+  }
+
+  .footer-txt {
+    width: 343px;
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .name-input,.email-input,.message-input {
+    width: 343px;
+    flex-shrink: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--White, #FFF);
+    margin-bottom: 1.2em;
+  }
+
+  .name-input,.email-input {
+    height: 43px;
+  }
+
+  .message-input {
+    height: 107px;
+  }
+
+  .name-input::placeholder,.email-input::placeholder,.message-input::placeholder {
+    color: var(--White, #FFF);
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.222px;
+    opacity: 0.5;
+  }
+
+  .contact-lower {
+    left: 25vw;
+  }
+
+  .name-footer {
+    color: var(--White, #FFF);
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.333px;
+  }
+
+  .social a {
+    width: 53.994px;
+    height: 20px;
+  }
+
+  .social {
+    position: relative;
+    top: 2.5em;
+  }

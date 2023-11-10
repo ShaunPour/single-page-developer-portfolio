@@ -8,6 +8,7 @@ const ProjectList = () => {
                     <h3 className="projects-title">Projects</h3>
                     <button className="contact-middle">Contact Me</button>
                 </div>
+                <div className="row">
                 {projects.map((projects) => {
                     return (
                         <div className='col' key={projects.id}>
@@ -16,6 +17,7 @@ const ProjectList = () => {
                     );
                 }
                 )}
+                </div>
           </div>
         )
     }

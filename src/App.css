@@ -428,7 +428,6 @@ hr {
       position: absolute;
       bottom: 60px;
       left: 35px;
-      overflow:visible;
     }
 
     .name-footer {
@@ -445,7 +444,169 @@ hr {
   }
 
   @media (min-width: 1024px) {
+
+    body {
+      width: 1024px;
+    }
+
+    .title {
+      margin-bottom: 5vh;
+    }
+
+    .me {
+      position: relative;
+      bottom: 22vh;
+    }
+
+    nav {
+      left: 60vw;
+      top: -10vh;
+      width: 192.492px;
+      height: 25px;
+    }
     .skills {
       grid-template-columns: repeat(3, 33.33%);
+      position: relative;
+      left: 55px;
+    }
+
+    hr {
+      width: 855px;
+      left: -2em;
+    }
+
+    hr:last-of-type {
+      left: 7.5em;
+    }
+
+    footer,body {
+      overflow-x: hidden;
+      width: 1024px;
+    }
+
+    .name-footer {
+      bottom: 4.5em;
+      left: -15em;
+    }
+  }
+
+  @media (min-width: 1440px) {
+
+    .title {
+      position: relative;
+      left: 15vw;
+      bottom: 2vh;
+      margin-bottom: 2em;
+    }
+
+    .me {
+      width: 445px;
+      height: 720px;
+      top: -11.3em;
+      left: 61vw;
+    }
+
+    nav {
+      width: 192.492px;
+      height: 25px;
+      left: 75vw;
+      top: -13.8vh;
+    }
+
+    hr {
+      width: 1110px;
+      left: 14vw;
+    }
+
+    .intro-title,.projects-title {
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -2.5px;
+    }
+
+    .intro-title {
+      width: 55%;
+      z-index: 500;
+    }
+
+    .intro-title,.bio,.contact-upper {
+      position: relative;
+      left: 15vw;
+      bottom: 101vh;
+    }
+
+    .bio,.contact-upper {
+      left: 18vw;
+    }
+
+    .bio {
+      width: 39%;
+    }
+
+    .contact-upper {
+      bottom: 86vh;
+    }
+
+    .card-title {
+      font-size: 48px;
+      line-height: 56px;
+      letter-spacing: -1.5px;
+    }
+
+    .skills,.projects {
+      left: 21vw;
+    }
+
+    .projects {
+      bottom: 30vh;
+    }
+
+    .project .card-title {
+      width: 65%;
+    }
+
+    footer {
+      width: 1440px;
+      height: 675px;
+      left: 13.8vw;
+    }
+
+    .footer-txt,.footer-title {
+      text-align: left;
+      position: relative;
+      left: 10vw;
+      top: 6vh;
+    }
+
+    .footer-form {
+      position: relative;
+      left: 20vw;
+      bottom: 15vw;
+    }
+
+    .contact-lower {
+      left: 11vw;
+    }
+
+    hr:last-of-type {
+      bottom: 12vh;
+    }
+
+    .name-footer {
+      bottom: 9em;
+      left: -21em;
+    }
+
+    .social {
+      bottom: -30em;
+      right: 14em;
+    }
+
+    .code,.site {
+      left: -10vw;
+    }
+
+    .site {
+      left: -16vw;
     }
   }

@@ -488,6 +488,10 @@ hr {
       bottom: 4.5em;
       left: -15em;
     }
+
+    .contact-upper,.contact-middle,.contact-lower,.code,.site {
+      cursor: pointer;
+    }
   }
 
   @media (min-width: 1440px) {
@@ -608,5 +612,94 @@ hr {
 
     .site {
       left: -16vw;
+    }
+  }
+
+  @media (min-width: 2560px) {
+    .intro-title,.bio,.contact-upper {
+      bottom: 62vh;
+      left: 35vw;
+    }
+
+    .intro-title {
+      width: 30%;
+    }
+
+    .me {
+      left: 85vw;
+      bottom: 5vh;
+    }
+
+    .skills,.projects {
+      left: 40vw;
+    }
+
+    .projects {
+      bottom: 22vh;
+      left: 45vw;
+    }
+
+    hr {
+      width: 1750px;
+      left: 22vw;
+    }
+
+    nav {
+      top: -8.55vh;
+      left: 92vw;
+    }
+
+    .code {
+      left: -5vw;
+    }
+
+    .btn-div {
+      left: -8vw;
+    }
+
+    footer {
+      width: 2560px;
+      left: 29.5vw;
+    }
+
+    .contact-middle {
+      left: 25vw;
+    }
+
+    hr:first-of-type {
+      left: 27vw;
+    }
+
+    hr:last-of-type {
+      left: 13vw;
+    }
+
+    .footer-title,.footer-txt {
+      top: -1vh;
+      left: 20vw;
+    }
+
+    .footer-form {
+      bottom: 20vh;
+      left: 14vw;
+    }
+
+    .contact-lower {
+      left: 6vw;
+    }
+
+    .name-footer {
+      left: -30vw;
+      bottom: 12em;
+    }
+
+    .social {
+      right: 32em;
+    }
+
+    .title {
+      position: absolute;
+      top: -20px;
+      left: 0;
     }
   }

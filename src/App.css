@@ -623,6 +623,64 @@ hr {
     }
   }
 
+  @media (min-width: 1920px) {
+    body,footer {
+      width: 1920px;
+    }
+
+    .title {
+      left: -1.2em;
+    }
+
+    .intro-title,.bio,.contact-upper {
+      bottom: 10em;
+    }
+
+    .bio, .contact-upper {
+      bottom: 85vh;
+      left: 15vw;
+    }
+
+    nav {
+      top: -125px;
+    }
+
+    .skills,.projects {
+      position: relative;
+      left: 5vw !important;
+    }
+
+    .projects {
+      left: 10vw !important;
+    }
+
+    hr:first-of-type {
+      left: -6vw !important;
+      width: 1440px;
+    }
+
+    footer {
+      left: -8px;
+    }
+
+    form {
+      top: -20vh;
+    }
+
+    hr:last-of-type {
+      left: 115px !important;
+    }
+
+    .name-footer {
+      position: relative;
+      left: -35em;
+    }
+
+    .social {
+      top: 5em;
+    }
+  }
+
   @media (min-width: 2560px) {
     .intro-title,.bio,.contact-upper {
       bottom: 62vh;
@@ -638,36 +696,14 @@ hr {
       bottom: 5vh;
     }
 
-    .skills,.projects {
-      left: 40vw;
-    }
-
-    .projects {
-      bottom: 22vh;
-      left: 45vw;
-    }
-
-    hr {
-      width: 1750px;
-      left: 22vw;
-    }
-
     nav {
       top: -0.59vh;
       left: 94vw;
     }
 
-    .code {
-      left: -5vw;
-    }
-
-    .btn-div {
-      left: -8vw;
-    }
-
     footer {
       width: 2560px;
-      left: 29.5vw;
+      left: 12vw;
     }
 
     .contact-middle {
@@ -675,11 +711,11 @@ hr {
     }
 
     hr:first-of-type {
-      left: 27vw;
+      left: 5vw !important;
     }
 
     hr:last-of-type {
-      left: 13vw;
+      left: 19vw !important;
     }
 
     .footer-title,.footer-txt {
@@ -709,5 +745,13 @@ hr {
       position: absolute;
       top: -20px;
       left: 0;
+    }
+
+    .skills {
+      left: 20vw !important;
+    }
+
+    .projects {
+      left: 26vw !important;
     }
   }

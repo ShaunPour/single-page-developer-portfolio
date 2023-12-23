@@ -9,11 +9,12 @@ const Footer = () => {
                 form, and I’ll get back to you as soon as possible.
             </p>
             <form className="footer-form">
-                <input type="text" className="name-input" placeholder="NAME"/>
-                <input type="email" className="email-input" placeholder="EMAIL"/>
-                <textarea className="message-input" cols="30" rows="10" placeholder="MESSAGE"></textarea>
+                <input type="text" className="name-input" placeholder="NAME" required/>
+                <input type="email" className="email-input" placeholder="EMAIL" required/>
+                <textarea className="message-input" cols="30" rows="10" placeholder="MESSAGE" required></textarea>
                 <button className="contact-lower">Send Message</button>
             </form>
+            {/* <p className="error">Invalid entry. Please try again!</p> */}
             <hr />
             <h3 className="name-footer">shaunpour</h3>
             <div className="social">

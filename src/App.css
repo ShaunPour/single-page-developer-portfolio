@@ -459,8 +459,8 @@ hr {
     }
 
     nav {
-      left: 60vw;
-      top: -10vh;
+      left: 58vw;
+      top: -6.7vh;
       width: 192.492px;
       height: 25px;
     }
@@ -468,6 +468,10 @@ hr {
       grid-template-columns: repeat(3, 33.33%);
       position: relative;
       left: 55px;
+    }
+
+    .btn-div {
+      left: -5em;
     }
 
     hr {
@@ -485,7 +489,7 @@ hr {
     }
 
     .name-footer {
-      bottom: 4.5em;
+      bottom: 1em;
       left: -15em;
     }
 
@@ -569,6 +573,10 @@ hr {
       width: 65%;
     }
 
+    .btn-div {
+      left: -1em;
+    }
+
     footer {
       width: 1440px;
       height: 675px;
@@ -645,8 +653,8 @@ hr {
     }
 
     nav {
-      top: -8.55vh;
-      left: 92vw;
+      top: -0.59vh;
+      left: 94vw;
     }
 
     .code {

@@ -754,4 +754,8 @@ hr {
     .projects {
       left: 26vw !important;
     }
+
+    .site {
+      left: -22vw;
+    }
   }

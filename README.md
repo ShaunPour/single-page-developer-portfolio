@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/DarkPhoenixNinja92/single-page-developer-portfolio)
-- Live Site URL: [Github Pages Live Site](https://darkphoenixninja92.github.io/single-page-developer-portfolio/)
+- Solution URL: [Github Repository](https://github.com/ShaunPour/single-page-developer-portfolio)
+- Live Site URL: [Github Pages Live Site](https://ShaunPour.github.io/single-page-developer-portfolio/)
 
 ### Built with
 
@@ -47,5 +47,5 @@ Users should be able to:
 ## Author
 
 - Website - [Shaun Pour](https://www.scpour.com)
-- Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
+- Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/ShaunPour)
 - Twitter - [@Dark_Ninja92](https://www.twitter.com/Dark_Ninja92)
